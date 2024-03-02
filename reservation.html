@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- Collegamento ai file CSS delle icone dei social media -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    <body>
+        <section id="reservation">
+            <div class="overlay"></div>
+        
+            <nav>
+                <a href="./index.html"> &larr;</a>
+            </nav>
+        
+            <div class="reservation-container">
+                <h1>Make a reservation</h1>
+                <form id="bookingForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
+                
+                    <label for="partySize">Number of person:</label>
+                    <input type="number" id="partySize" name="partySize" min="1" required>
+                
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                
+                    <input type="submit" value="Book">
+                </form>
+                
+            </div>
+        </section>
+        
+
+        <section id="contact">
+            
+            <div class="overlay"></div>
+
+            <div class="contact-container">
+
+                <div class="contact-details">
+                    <h2>EXPERIENCE <br> EXCELLENT DINING <br> AT 76 GASTROPUB</h2>
+
+                    <p>123 Anywhere St., Any City, ST 12345 <br>
+                    hello@reallygreatsite.com <br>
+                    (123) 456-7890</p>
+
+                    <a href="#contact" class="text-reservation">MAKE <br>A RESERVATION <br>TODAY
+                    </a>
+
+                    <div class="social-icons">
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Irene Macchi. Tutti i diritti riservati.</p>
+            </div>
+        </section>
+
+        <!-- Bottone per tornare in alto -->
+        <span id="go-top" class="go-top"><i class="fas fa-arrow-up"></i></span>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
